@@ -108,3 +108,41 @@ color: black;
   border-radius: 50%;
   color:rgb(148, 82, 173);
 }
+#form , #submit{
+  display: flex;
+  background-color: #eff2e7;
+  flex-flow: column wrap;
+  font-family: lato;
+  color: rgb(36, 36, 36);
+  text-align: left;
+  padding-top: 10%;
+  padding-bottom: 10%;
+  padding-left: 20%;
+  padding-right: 20%;
+
+}
+  #fname , #lname , #email, #subject{
+    min-height:50px;
+    font-size: 17px;
+    font-family:lato;
+    text-align: left;
+  }
+  #input-button{
+    max-height: 20px;
+    font-size: 5px;
+    font-family:lato;
+    text-align: center;
+  }
+  /* Style inputs with type="text", select elements and textareas */
+input[type=text] , #subject, #email{
+  font-family: lato;
+  width: 100%; /* Full width */
+  padding: 12px; /* Some padding */ 
+  border: 1px solid #ccc; /* Gray border */
+  border-radius: 4px; /* Rounded borders */
+  box-sizing: border-box; /* Make sure that padding and width stays in place */
+  margin-top: 6px; /* Add a top margin */
+  margin-bottom: 16px; /* Bottom margin */
+  resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
+}
+
