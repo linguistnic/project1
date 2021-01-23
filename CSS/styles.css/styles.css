@@ -21,7 +21,7 @@
     text-align: center;
     padding-top: 10%;
     padding-bottom: 10%;
-     padding-left: 20%;
+    padding-left: 20%;
     padding-right: 20%;
     
   }
@@ -47,5 +47,21 @@
   }
   #contactLink{
 text-decoration: none;
-color: rgb(116, 81, 156);
+color: rgb(127, 74, 138);
   }
+  #profile-picture{
+      display:flex;
+      background-color: #e9b9b9;
+      
+  }
+
+  img{
+    max-width: 20em;
+    max-height:20em;
+    border-radius: 45%;
+    margin-left:auto;
+    margin-right:auto;
+    padding-top: 5%;
+    padding-bottom: 5%
+  }
+  
