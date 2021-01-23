@@ -97,7 +97,8 @@ color: black;
     padding-bottom: 5%
   }
   footer{
-    font-size: .8em;
+    font-size: .88;
+    text-align: right;
   }
 .fab {
   padding: 5px;
@@ -139,4 +140,3 @@ input[type=text] , #subject, #email{
   margin-bottom: 16px; /* Bottom margin */
   resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
 }
-
