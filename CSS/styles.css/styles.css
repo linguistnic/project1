@@ -2,7 +2,7 @@
 
 .textContent1 {
     display: flex;
-    background-color: #37bdb6;
+    background-color: #26a59fcb;
     flex-flow: column wrap;
     font-family: lato;
     color: white;
@@ -14,7 +14,7 @@
   }
   .textContent2 {
     display: flex;
-    background-color: #ff8395;
+    background-color: #e46e7f;
     flex-flow: column wrap;
     font-family: lato;
     color: white;
@@ -50,10 +50,10 @@
   }
   .textContent5 {
     display: flex;
-    background-color: #ffec00;
+    background-color: #c292e9;
     flex-flow: column wrap;
     font-family: lato;
-    color: rgb(36, 36, 36);
+    color: white;
     text-align: center;
     padding-top: 10%;
     padding-bottom: 10%;
@@ -65,7 +65,7 @@
     margin: 0;
     padding: 1px;
     overflow: hidden;
-    background-color: #4d8f4d;
+    background-color: #2f552f;
     font-family: lato;
   }
   
@@ -82,11 +82,11 @@
   }
   #contactLink{
 text-decoration: none;
-color: rgb(127, 74, 138);
+color: black;
   }
   #profile-picture{
       display:flex;
-      background-color: #ffca26;
+      background-color: #face49;
       justify-content: center;
   }
   img{
