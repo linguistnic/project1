@@ -89,7 +89,7 @@ color: black;
       background-color: #face49;
       justify-content: center;
   }
-  img{
+  #profilePicture{
     max-width: 20em;
     max-height:20em;
     border-radius: 40%;
