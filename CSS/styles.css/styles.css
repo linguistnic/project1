@@ -149,6 +149,6 @@ input[type=text] , #subject, #email{
  .textContent3 a:hover{
   color:black;
   }
-  .textContent1 a{
-    color: rgb(117, 15, 117)
-      }
+.textContent1 a{
+  color: rgb(117, 15, 117)
+   }
