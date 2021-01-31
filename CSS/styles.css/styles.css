@@ -143,3 +143,12 @@ input[type=text] , #subject, #email{
 .navbar a:hover{
   text-decoration: none;
  color: white;}
+ .textContent3 a{
+   color:skyblue;
+ }
+ .textContent3 a:hover{
+  color:black;
+  }
+  .textContent1 a{
+    color: rgb(117, 15, 117)
+      }

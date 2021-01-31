@@ -25,15 +25,16 @@
 <div>
     <form  action="https://formspree.io/f/meqpnrpe"
     method="POST" id="form">
-        <label for="fname">First name:</label><br>
-        <input type="text" id="fname" name="fname" Placeholder="First Name Here"><br>
+        <label for="fname">First name:*</label><br>
+        <input type="text" id="fname" name="fname" Placeholder="First Name Here" required><br>
         <label for="lname">Last name:</label><br>
         <input type="text" id="lname" name="lname" placeholder="Last Name Here"><br>
-        <label for="email">Email:</label><br>
-        <input type="email" id="email" name="email" placeholder="Email Here"><br>
-        <label for="subject">Something to say?</label> <br>
+        <label for="email">Email:*</label><br>
+        <input type="email" id="email" name="email" placeholder="Email Here" required><br>
+        <label for="subject">Something to say?*</label> <br>
         <textarea id="subject" name="subject" placeholder="Dear Nico, ..." style="height:200px"></textarea> <br>
-        <input id="input-button" type="submit" value="Submit">
+        <input id="input-button" type="submit" value="Submit" required>
+        <h5>* denotes required field :-)</h5>
       </form>
 </div> <!--Contact Form-->
 <div class="footer">
