@@ -81,8 +81,8 @@
    text-decoration:none;
   }
   #contactLink{
-text-decoration: none;
-color: black;
+  text-decoration: none;
+  color: black;
   }
   #profile-picture{
       display:flex;
@@ -140,3 +140,6 @@ input[type=text] , #subject, #email{
   margin-bottom: 16px; /* Bottom margin */
   resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
 }
+.navbar a:hover{
+  text-decoration: none;
+ color: white;}
