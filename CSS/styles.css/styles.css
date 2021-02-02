@@ -152,3 +152,6 @@ color: white;
 .textContent1 a{
   color: rgb(117, 15, 117)
 }
+.carousel-inner img {
+  margin: auto;
+}
